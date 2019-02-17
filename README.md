@@ -2,6 +2,12 @@
 
 ## Code style
 
+Official code style rules for Kotlin can be found [here](https://kotlinlang.org/docs/reference/coding-conventions.html).
+
+> To configure the IntelliJ formatter according to this style guide, please install Kotlin plugin version 1.2.20 or newer, go
+> to Settings | Editor | Code Style | Kotlin, click on "Set from…" link in the upper right corner, and select "Predefined
+> style / Kotlin style guide" from the menu.
+
 ### Expression functions
 
 Expression functions are great tool to shorten the code. 
@@ -64,7 +70,7 @@ fun longMethodName(
 For now it's not known whether function chains are allowed in expression functions. On the one hand it can be treated as multiline expression without wrapping, on the other hand it reduces readability.
 
 ```kotlin
-// Part of BinaryVersion.kt from official kotlin-core
+// Part of BinaryVersion.kt from kotlin-core
 fun parseVersionArray(string: String): IntArray? =
     string.split(".")
         .map { part -> part.toIntOrNull() ?: return null }
