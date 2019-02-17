@@ -43,7 +43,7 @@ fun foo(index: Int) = when (index) {
 }
 ```
 
-Normal function body is especially desirable when function signature doesn't on a single line.
+Normal function body is especially desirable when function signature doesn't fit on a single line.
 
 ```kotlin
 // Incorrect
@@ -64,7 +64,7 @@ fun longMethodName(
 For now it's not known whether function chains are allowed in expression functions. On the one hand it can be treated as multiline expression without wrapping, on the other hand it reduces readability.
 
 ```kotlin
-// Example from BinaryVersion.kt in official Kotlin source code.
+// Part of BinaryVersion.kt from official kotlin-core
 fun parseVersionArray(string: String): IntArray? =
     string.split(".")
         .map { part -> part.toIntOrNull() ?: return null }
