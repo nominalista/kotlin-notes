@@ -4,9 +4,7 @@
 
 Official code style rules for Kotlin can be found [here](https://kotlinlang.org/docs/reference/coding-conventions.html).
 
-> To configure the IntelliJ formatter according to this style guide, please install Kotlin plugin version 1.2.20 or newer, go
-> to Settings | Editor | Code Style | Kotlin, click on "Set from…" link in the upper right corner, and select "Predefined
-> style / Kotlin style guide" from the menu.
+> To configure the IntelliJ formatter according to this style guide, please install Kotlin plugin version 1.2.20 or newer, go to Settings | Editor | Code Style | Kotlin, click on "Set from…" link in the upper right corner, and select "Predefined style / Kotlin style guide" from the menu.
 
 ### Expression functions
 
