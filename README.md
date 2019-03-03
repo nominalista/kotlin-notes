@@ -8,8 +8,6 @@ Name of the function, class, variable, etc. should be simple as possbile, but no
 
 "create" means that we are going to creating something new, something unique. "make" is often used in context of some ordinary tasks. Moreover, we can "make" something from other components, whilst sometimes we "create" objects from nothing. In contrary, "build" process takes time and uses many external components.
 
-Some examples:
-
 ```kotlin
 // "create" implies that created account will be unique
 fun createAccount()
