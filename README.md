@@ -1,5 +1,26 @@
 # Kotlin notes
 
+## Naming
+
+Name of the function, class, variable, etc. should be simple as possbile, but not simpler. Using long, descriptive names is definitely better than shorter ones that tells nothing about what it is doing. Code formatting in the IDE should not be an excuse for using incomprehensible name.
+
+### "create" vs "make" vs "build"
+
+"create" means that we are going to creating something new, something unique. "make" is often used in context of some ordinary tasks. Moreover, we can "make" something from other components, whilst sometimes we "create" objects from nothing. In contrary, "build" process takes time and uses many external components.
+
+Some examples:
+
+```kotlin
+// "create" implies that created account will be unique
+fun createAccount()
+
+// "make" implies that new object will be made from already existing one
+fun makeEmployee(record: EmployeeRecord)
+
+// "build" implies that process contains many stages
+fun buildHtmlPage()
+```
+
 ## Code style
 
 Official code style rules for Kotlin can be found [here](https://kotlinlang.org/docs/reference/coding-conventions.html).
